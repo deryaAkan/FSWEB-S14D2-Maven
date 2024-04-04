@@ -5,7 +5,7 @@ import org.example.model.enums.PaintColor;
 public class Carpet {
     private  int width;
     private  int height;
-    PaintColor color;
+    private PaintColor color;
 
     public Carpet(int width, int height, PaintColor color) {
         this.width = width;

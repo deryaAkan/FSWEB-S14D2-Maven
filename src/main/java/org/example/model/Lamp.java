@@ -5,12 +5,12 @@ import org.example.model.enums.LampType;
 public class Lamp {
     private LampType style;
     private boolean battery;
-    private int globalRating;
+    private int globRating;
 
     public Lamp(LampType style, boolean battery, int globalRating){
         this.style = style;
         this.battery = battery;
-        this.globalRating = globalRating;
+        this.globRating = globalRating;
     }
 
     public void turnOn(){
@@ -26,6 +26,6 @@ public class Lamp {
     }
 
     public int getGlobRating() {
-        return globalRating;
+        return globRating;
     }
 }
